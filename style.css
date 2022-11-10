@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Inter:wght@300;400;500&display=swap');
+
+:root {
+    --white: #fff;
+  
+    --gray-50: #f0f2f5;
+    --gray-100: #e1e3e5;
+    --gray-200: #fcfdff;
+    --gray-300: #bfbfcc;
+    --gray-400: #787880;
+    --gray-500: #5a5a66;
+    --gray-550: #4f4f5b;
+    --gray-600: #41414c;
+  
+    --gray-300-o16: #fcfdff29;
+    --orange-400: #f7a241;
+    --orange-500: #f1972c;
+
+    --purple-500: #7159c1;
+    --red-500: #eb3b35;
+    --green-500: #36b336;
+}
+
+html, h1, h2, p{
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Inter', sans-serif;
+    color: var(--white);
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: rgb(10, 10, 10);
+    padding: 1rem 0;
+    color: var(--gray-200);
+    height: 160px;
+}
+
+#content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+#content img{
+    width: 120px;
+    height: 120px;
+}
+
+.itdispo{
+    color: var(--gray-300);
+}
